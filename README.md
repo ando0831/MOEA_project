@@ -3,7 +3,7 @@ python
 ## ライブラリ
 numpy, matplotlib, pymoo
 ## コードの説明
-+ NSGA2_MOEAD_program - 非劣解活用.ipynb
++ **NSGA2_MOEAD_program - 非劣解活用.ipynb**
 
   初期解に非劣解を1つ含めて最適化を行うコード。以下の流れで最適化を行う。  
   1. ZDT問題を最適化する  
@@ -11,8 +11,14 @@ numpy, matplotlib, pymoo
   3. 類似問題を最適化する際の初期解に、1.で求めた非劣解を1つ含める  
   4. 類似問題を最適化する
  
-  パレートフロントの左端、中央、右端に位置する非劣解をそれぞれ含めた際の結果を表している。  
-+ MyMOEAD.ipynb
+  パレートフロントの左端、中央、右端に位置する非劣解をそれぞれ含めた際の結果を表している。
++ **excel.ipynb**
+
+  NSGA2_MOEAD_program - 非劣解活用.ipynbで生成したexcelファイルをexcelフォルダに入れ実行する。
+
+  世代数とHyperVolumeの関係を表したグラフを表示する。
+  
++ **MyMOEAD.ipynb**
 
   pymooを使用せず、1からMOEA/Dの実装を行っている。
   
