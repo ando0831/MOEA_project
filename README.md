@@ -3,6 +3,9 @@ python
 ## ライブラリ
 numpy, matplotlib, pymoo
 ## コードの説明
+
+進化型多目的最適化アルゴリズム(MOEA)を活用したコード
+
 + **NSGA2_MOEAD_program - 非劣解活用.ipynb**
 
   初期解に非劣解を1つ含めて最適化を行うコード。以下の流れで最適化を行う。  
